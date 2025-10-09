@@ -16,27 +16,30 @@ type(list1)
 ```
 
 # Convert list to Numpy Array
+```
 arr1 = np.array(list1)
 arr1
 
-
+```
 # Memory address of an array object
 arr1.data
 
 
-
+```
 # Display type of an object
+
 type(arr1)
 
 
 # Datatype of array
 arr1.dtype
-
+```
 
 # Convert Integer Array to FLOAT
+```
 arr1.astype(float)
 
-
+```
 # Generate evenly spaced numbers (space =1) between 0 to 10
 np.arange(0,10)
 
