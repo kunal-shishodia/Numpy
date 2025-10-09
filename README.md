@@ -41,13 +41,15 @@ arr1.astype(float)
 
 ```
 # Generate evenly spaced numbers (space =1) between 0 to 10
+```
 np.arange(0,10)
-
-
+```
+```
 # Generate numbers between 0 to 100 with a space of 10
+
 np.arange(0,100,10)
 
-
+```
 
 # Generate numbers between 10 to 100 with a space of 10 in descending order
 np.arange(100, 10, -10)
