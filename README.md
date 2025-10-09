@@ -200,18 +200,19 @@ a = np.array([7,5,3,9,0,2])
 
 ```
 # Access first element of the array
-```a[0]
-```
-# Access all elements of Array except first one.
-```a[1:]
+a[0]
 
-```
+# Access all elements of Array except first one.
+a[1:]
+
+
 # Fetch 2nd , 3rd & 4th value from the Array
-```a[1:4]
+a[1:4]
 
 ```
 # Get last element of the array
-```a[-1]
+```
+a[-1]
 
 
 ar = np.arange(1,20)
