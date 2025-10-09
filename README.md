@@ -181,59 +181,59 @@ A
 ```
 
 # SUM of all numbers in a 2D array
-A.sum()
-
+```A.sum()
+```
 # MAX number in a 2D array
-A.max()
+```A.max()
 
 # Minimum
 A.min()
 
-
+```
 # Enumerate for Numpy 2D Arrays
-for index, value in np.ndenumerate(A):
+```for index, value in np.ndenumerate(A):
     print(index, value)
 
 
 
 a = np.array([7,5,3,9,0,2])
 
-
+```
 # Access first element of the array
-a[0]
-
+```a[0]
+```
 # Access all elements of Array except first one.
-a[1:]
+```a[1:]
 
-
+```
 # Fetch 2nd , 3rd & 4th value from the Array
-a[1:4]
+```a[1:4]
 
-
+```
 # Get last element of the array
-a[-1]
+```a[-1]
 
 
 ar = np.arange(1,20)
 ar
-
+```
 
 # Replace EVEN numbers with ZERO
-rep1 = np.where(ar % 2 == 0, 0 , ar)
+```rep1 = np.where(ar % 2 == 0, 0 , ar)
 print(rep1)
 
 
-
+```
 # Replace 10 with value 99
-rep2 = np.where(ar2 == 10, 99 , ar2)
+```rep2 = np.where(ar2 == 10, 99 , ar2)
 print(rep2)
 
 
 
 p2 = np.arange(0,100,10)
 p2
-
-# Replace values at INDEX loc 0,3,5 with 33,55,99
+```
+# Replace values at INDEX loc 0,3,5 with 33,55,99```
 np.put(p2, [0, 3 , 5], [33, 55, 99])
 p2
 
@@ -243,49 +243,49 @@ p2
 a = np.array([10, np.nan,20,30,60,np.nan,90,np.inf])
 a
 
-
+```
 # Search for missing values and return as a boolean array
-np.isnan(a)
+```np.isnan(a)
 
-
+```
 # Index of missing values in an array
-np.where(np.isnan(a))
+```np.where(np.isnan(a))
 
-
+```
 # Replace all missing values with 99
-a[np.isnan(a)] = 99
+```a[np.isnan(a)] = 99
 a
-
+```
 
 # Check if array has any NULL value
-np.isnan(a).any()
+```np.isnan(a).any()
 
-
+```
 
 # Stack arrays vertically
-a = np.zeros(20).reshape(2,-1)
+```a = np.zeros(20).reshape(2,-1)
 b = np.repeat(1, 20).reshape(2,-1)
 a b
 
 np.vstack([a,b])
 
 
-
+```
 # Stack arrays horizontally
-
+```
 np.hstack([a,b])
 np.hstack([a1,b1])
 
 
-
+```
 # Common items between two arrays
-
+```
 c1 = np.array([10,20,30,40,50,60])
 c2 = np.array([12,20,33,40,55,60])
 np.intersect1d(c1,c2)
 
-
+```
 
 # Remove common elements of C1 & C2 array from C1
-
-np.setdiff1d(c1,c2)
+```
+np.setdiff1d(c1,c2)```
