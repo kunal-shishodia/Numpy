@@ -234,7 +234,8 @@ print(rep2)
 p2 = np.arange(0,100,10)
 p2
 ```
-# Replace values at INDEX loc 0,3,5 with 33,55,99```
+# Replace values at INDEX loc 0,3,5 with 33,55,99
+```
 np.put(p2, [0, 3 , 5], [33, 55, 99])
 p2
 
@@ -246,22 +247,26 @@ a
 
 ```
 # Search for missing values and return as a boolean array
-```np.isnan(a)
+```
+np.isnan(a)
 
 ```
 # Index of missing values in an array
-```np.where(np.isnan(a))
+```
+np.where(np.isnan(a))
 
 ```
 # Replace all missing values with 99
-```a[np.isnan(a)] = 99
+```
+a[np.isnan(a)] = 99
 a
+
 ```
 
 # Check if array has any NULL value
-```np.isnan(a).any()
+np.isnan(a).any()
 
-```
+
 
 # Stack arrays vertically
 ```a = np.zeros(20).reshape(2,-1)
